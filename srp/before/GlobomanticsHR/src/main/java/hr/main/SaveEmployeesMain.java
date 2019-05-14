@@ -1,6 +1,6 @@
 package hr.main;
 
-import hr.data.EmployeeRepository;
+import hr.persistence.EmployeeRepository;
 import hr.personnel.Employee;
 
 import java.util.List;

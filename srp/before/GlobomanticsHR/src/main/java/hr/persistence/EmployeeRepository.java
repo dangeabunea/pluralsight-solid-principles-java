@@ -1,4 +1,4 @@
-package hr.data;
+package hr.persistence;
 
 import hr.personnel.Employee;
 import hr.personnel.FullTimeEmployee;
@@ -6,15 +6,18 @@ import hr.personnel.PartTimeEmployee;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.UUID;
 
 /*
-Helper method to get all employees. In reality this would be a JPA repository or something
-similar
+Helper method to perform CRUD operations on employees. In a production
+application we could use the database for persistence. In this demo,
+we are storing employees in the file system.
  */
 
 public class EmployeeRepository {
+
     public List<Employee> findAll(){
+
+        // Employees are kept in memory for simplicity
         Employee anna = new FullTimeEmployee("Anna Smith", 2000);
         Employee billy = new FullTimeEmployee("Billy Leech", 920);
 
