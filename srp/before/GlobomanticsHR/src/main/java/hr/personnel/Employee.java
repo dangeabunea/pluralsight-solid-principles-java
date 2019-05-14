@@ -20,12 +20,16 @@ public abstract class Employee {
     }
 
     public String getEmail() {
-        return this.firstName + "." + this.lastName + "@globomanticshr.com";
+        return this.firstName + "." +
+                this.lastName +
+                "@globomanticshr.com";
     }
 
     @Override
     public String toString() {
-        return this.firstName + " " + this.lastName + " - " + this.monthlyIncome;
+        return this.firstName + " " +
+                this.lastName + " - " +
+                this.monthlyIncome;
     }
 
     public int getMonthlyIncome() {
@@ -74,7 +78,8 @@ public abstract class Employee {
             sb.append(employee.monthlyIncome);
             sb.append(System.lineSeparator());
 
-            Path path = Paths.get(employee.getFullName().replace(" ","_") + ".rec");
+            Path path = Paths.get(employee.getFullName()
+                    .replace(" ","_") + ".rec");
             Files.write(path, sb.toString().getBytes());
 
             System.out.println("Saved employee " + employee.toString());
