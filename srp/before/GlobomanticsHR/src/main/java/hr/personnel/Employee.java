@@ -58,7 +58,6 @@ public abstract class Employee {
 
     public static void save(Employee employee){
         try {
-            // serialization
             StringBuilder sb = new StringBuilder();
             sb.append("### EMPLOYEE RECORD ####");
             sb.append(System.lineSeparator());
@@ -75,11 +74,9 @@ public abstract class Employee {
             sb.append(employee.monthlyIncome);
             sb.append(System.lineSeparator());
 
-            // save record to the file
             Path path = Paths.get(employee.getFullName().replace(" ","_") + ".rec");
             Files.write(path, sb.toString().getBytes());
 
-            //
             System.out.println("Saved employee " + employee.toString());
         } catch (IOException e){
             System.out.println("ERROR: Could not save employee. " + e);
