@@ -34,7 +34,10 @@ public class EmployeeRepository {
         Employee steve = new PartTimeEmployee("Steve Jones", 800);
         Employee magda = new PartTimeEmployee("Magda Iovan", 920);
 
-        return Arrays.asList(anna, billy, steve, magda);
+        Employee john = new PartTimeEmployee("John Lee", 300);
+        Employee catherine = new PartTimeEmployee("Catherine Allison", 500);
+
+        return Arrays.asList(anna, billy, steve, magda, john);
     }
 
     public void save(Employee employee) throws IOException {
