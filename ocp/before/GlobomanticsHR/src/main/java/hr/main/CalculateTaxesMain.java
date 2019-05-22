@@ -23,14 +23,17 @@ public class CalculateTaxesMain {
         // Calculate taxes
         Locale locale = new Locale("en", "US");
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(locale);
-
         TaxCalculator taxCalculator = new TaxCalculator();
+
         double totalTaxes = 0;
         for (Employee employee: employees){
-            double tax = taxCalculator.calculate(employee);
-            String formatedTax = currencyFormatter.format(tax);
-            consoleLogger.writeInfo(employee.getFullName() + " taxes: " + formatedTax);
 
+            // compute individual tax
+            double tax = taxCalculator.calculate(employee);
+            String formattedTax = currencyFormatter.format(tax);
+            consoleLogger.writeInfo(employee.getFullName() + " taxes: " + formattedTax);
+
+            // add to company total taxes
             totalTaxes += taxCalculator.calculate(employee);
         }
         consoleLogger.writeInfo("Total taxes = " + currencyFormatter.format(totalTaxes));
