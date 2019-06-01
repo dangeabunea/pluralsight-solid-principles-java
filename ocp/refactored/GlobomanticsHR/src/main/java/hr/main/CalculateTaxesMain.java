@@ -4,7 +4,9 @@ import hr.logging.ConsoleLogger;
 import hr.persistence.EmployeeFileSerializer;
 import hr.persistence.EmployeeRepository;
 import hr.personnel.Employee;
+import hr.taxes.FullTimeTaxCalculator;
 import hr.taxes.TaxCalculator;
+import hr.taxes.TaxCalculatorFactory;
 
 import java.text.NumberFormat;
 import java.util.List;
@@ -23,10 +25,10 @@ public class CalculateTaxesMain {
         // Calculate taxes
         Locale locale = new Locale("en", "US");
         NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(locale);
-        TaxCalculator taxCalculator = new TaxCalculator();
 
         double totalTaxes = 0;
         for (Employee employee: employees){
+            TaxCalculator taxCalculator = TaxCalculatorFactory.create(employee);
 
             // compute individual tax
             double tax = taxCalculator.calculate(employee);
