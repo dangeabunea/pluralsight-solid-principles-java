@@ -36,7 +36,7 @@ public class EmployeeRepository {
         Employee catherine = new Intern("Catherine Allison", 500, 15);
 
         // Subcontractors
-        Employee freelancerCompany = new Subcontractor("Cool Software Inc", 3000);
+        Employee freelancerCompany = new Subcontractor("Some Subcontractor Company", 3000);
 
         return Arrays.asList(anna, billy, steve, magda, john, catherine, freelancerCompany);
     }
