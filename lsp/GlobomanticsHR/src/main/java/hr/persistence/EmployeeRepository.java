@@ -36,9 +36,9 @@ public class EmployeeRepository {
         Employee catherine = new Intern("Catherine Allison", 500, 15);
 
         // Subcontractors
-        Employee freelancerCompany = new Subcontractor("Some Subcontractor Company", 3000);
+        Employee subcontractor = new Subcontractor("Rebekah Jackson", 3000);
 
-        return Arrays.asList(anna, billy, steve, magda, john, catherine, freelancerCompany);
+        return Arrays.asList(anna, billy, steve, magda, john, subcontractor, catherine);
     }
 
     public void save(Employee employee) throws IOException {
