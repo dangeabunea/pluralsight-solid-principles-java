@@ -5,4 +5,16 @@ public class Intern extends Employee {
         super(fullName, monthlyIncome);
         setNbHoursPerWeek(nbHours);
     }
+
+    @Override
+    public void requestTimeOff(int nbDays, Employee manager) {
+                /*
+        HR business logic for time off for interns
+         */
+
+        System.out.println("Time off request for intern " +
+                this.getFullName() +
+                "; Nb days " + nbDays +
+                "; Requested from " + manager.getFullName());
+    }
 }

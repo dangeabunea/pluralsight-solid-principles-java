@@ -1,10 +1,7 @@
 package hr.persistence;
 
 import hr.logging.ConsoleLogger;
-import hr.personnel.Employee;
-import hr.personnel.FullTimeEmployee;
-import hr.personnel.Intern;
-import hr.personnel.PartTimeEmployee;
+import hr.personnel.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -38,7 +35,10 @@ public class EmployeeRepository {
         Employee john = new Intern("John Lee", 300, 10);
         Employee catherine = new Intern("Catherine Allison", 500, 15);
 
-        return Arrays.asList(anna, billy, steve, magda, john, catherine);
+        // Subcontractors
+        Employee freelancerCompany = new Subcontractor("Cool Software Inc", 3000);
+
+        return Arrays.asList(anna, billy, steve, magda, john, catherine, freelancerCompany);
     }
 
     public void save(Employee employee) throws IOException {

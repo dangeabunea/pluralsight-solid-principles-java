@@ -12,7 +12,7 @@ import java.text.NumberFormat;
 import java.util.List;
 import java.util.Locale;
 
-public class CalculateTaxesMain {
+public class CalculateEmployeeTaxesMain {
     public static void main(String[] args) {
         // Create dependencies
         ConsoleLogger consoleLogger = new ConsoleLogger();
