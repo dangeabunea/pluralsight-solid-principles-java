@@ -3,9 +3,9 @@
 
 A subcontractor is an entity that works similar to an employee
 for various projects. We need to implement this feature because in most
- companies employees work with external collaborators.
+companies employees work with external collaborators.
 
-We are interested in the contact info (name, email),
+We are interested in the contact info (name, own email),
 cost (monthly income) and nb of hours worked.
 
 They need to have an SLA approved before working.
