@@ -17,16 +17,16 @@ public class ApproveSLAMain {
         EmployeeRepository repository = new EmployeeRepository(employeeFileSerializer);
 
         // Define SLA
-        int minTimeOffPercent = 98;
+        int minTimeOutPercent = 98;
         int maxResolutionDays = 2;
         ServiceLicenseAgreement companySla = new ServiceLicenseAgreement(
-                minTimeOffPercent,
+                minTimeOutPercent,
                 maxResolutionDays);
 
         // Grab subcontractors
-        List<Employee> subcontractors = repository.findAll();
+        List<Employee> employees = repository.findAll();
 
-        for (Employee e : subcontractors){
+        for (Employee e : employees){
             if(e instanceof  Subcontractor){
                 Subcontractor s = (Subcontractor)e;
                 s.approveSLA(companySla);
