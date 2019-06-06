@@ -7,30 +7,33 @@ import hr.personnel.Employee;
 import hr.personnel.ServiceLicenseAgreement;
 import hr.personnel.Subcontractor;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class ApproveSLAMain {
     public static void main(String[] args) {
-        // Create dependencies
-        ConsoleLogger consoleLogger = new ConsoleLogger();
-        EmployeeFileSerializer employeeFileSerializer = new EmployeeFileSerializer();
-        EmployeeRepository repository = new EmployeeRepository(employeeFileSerializer);
-
         // Define SLA
-        int minTimeOutPercent = 98;
+        int minTimeOffPercent = 98;
         int maxResolutionDays = 2;
         ServiceLicenseAgreement companySla = new ServiceLicenseAgreement(
-                minTimeOutPercent,
+                minTimeOffPercent,
                 maxResolutionDays);
 
-        // Grab subcontractors
-        List<Employee> employees = repository.findAll();
+        // Get collaborators from their own source
+        Subcontractor subcontractor1 = new Subcontractor(
+                "Rebekah Jackson",
+                "rebekah-jackson@abc.com",
+                3000,
+                15);
+        Subcontractor subcontractor2 = new Subcontractor(
+                "Harry Fitz",
+                "harryfitz@def.com",
+                3000, 15);
+        List<Subcontractor> collaborators = Arrays.asList(subcontractor1, subcontractor2);
 
-        for (Employee e : employees){
-            if(e instanceof  Subcontractor){
-                Subcontractor s = (Subcontractor)e;
-                s.approveSLA(companySla);
-            }
+        // Check SLA
+        for (Subcontractor s : collaborators) {
+            s.approveSLA(companySla);
         }
     }
 }

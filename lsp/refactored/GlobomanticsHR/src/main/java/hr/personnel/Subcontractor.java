@@ -1,30 +1,31 @@
 package hr.personnel;
 
-public class Subcontractor extends Employee {
+public class Subcontractor {
 
-    public Subcontractor(String fullName, int monthlyIncome) {
-        super(fullName, monthlyIncome);
-    }
+    private final int monthlyIncome;
+    private int nbHoursPerWeek;
+    private String email;
+    private String name;
 
-    @Override
-    public void requestTimeOff(int nbDays, Employee manager) {
+    public Subcontractor(String name,
+                         String email,
+                         int monthlyIncome,
+                         int nbHoursPerWeek) {
 
-        throw new RuntimeException("Not implemented");
+        this.name = name;
+        this.email = email;
+        this.monthlyIncome = monthlyIncome;
+        this.nbHoursPerWeek = nbHoursPerWeek;
     }
 
     public boolean approveSLA(ServiceLicenseAgreement sla) {
-        /*
-        Business logic for approving a
-        service license agreement for a
-        for a subcontractor
-         */
         boolean result = false;
-        if (sla.getMinUptimePercent() >= 98
-                && sla.getProblemResolutionTimeDays() <= 2) {
-            result=  true;
+        if (sla.getMinUptimePercent() >= 98 &&
+                sla.getProblemResolutionTimeDays() <= 2) {
+            result = true;
         }
 
-        System.out.println("SLA approval for " + this.getFullName() + ": " + result);
+        System.out.println("SLA approval for " + this.name + ": " + result);
         return result;
     }
 }
