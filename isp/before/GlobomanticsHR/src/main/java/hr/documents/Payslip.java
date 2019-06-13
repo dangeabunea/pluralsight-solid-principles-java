@@ -3,6 +3,8 @@ package hr.documents;
 import hr.personnel.Employee;
 
 import java.time.Month;
+import java.util.Arrays;
+import java.util.List;
 
 public class Payslip implements ExportableDocument {
     private String employeeName;
@@ -42,6 +44,9 @@ public class Payslip implements ExportableDocument {
 
     @Override
     public byte[] toPdf() {
+        List<String> list = Arrays.asList("ana","are");
+        list.re
+
         throw new UnsupportedOperationException();
     }
 
