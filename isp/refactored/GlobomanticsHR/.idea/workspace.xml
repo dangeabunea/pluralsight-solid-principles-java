@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4068d45-7151-4018-96ca-48defccb02b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/documents/Payslip.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/documents/Payslip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/documents/Payslip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/documents/Payslip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hr/documents/ExportableDocument.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +15,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hr/documents/WorkContract.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/documents/Payslip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="132">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +79,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,8 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,11 +247,13 @@
       <workItem from="1559824144667" duration="2330000" />
       <workItem from="1559831810791" duration="799000" />
       <workItem from="1560425293457" duration="3701000" />
+      <workItem from="1560446796291" duration="20000" />
+      <workItem from="1560446828498" duration="341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7750000" />
+    <option name="totallyTimeSpent" value="8111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="646" y="139" width="1294" height="727" extended-state="0" />
@@ -417,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hr/documents/Payslip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/main/ExportPayslipMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -439,11 +428,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/documents/WorkContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/documents/Payslip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
