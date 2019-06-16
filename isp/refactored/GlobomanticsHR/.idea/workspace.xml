@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4068d45-7151-4018-96ca-48defccb02b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/documents/ExportableDocument.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d4068d45-7151-4018-96ca-48defccb02b4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +62,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="646" />
-    <option name="y" value="139" />
-    <option name="width" value="1294" />
-    <option name="height" value="727" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="56" />
+    <option name="width" value="1262" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -248,17 +244,17 @@
       <workItem from="1559831810791" duration="799000" />
       <workItem from="1560425293457" duration="3701000" />
       <workItem from="1560446796291" duration="20000" />
-      <workItem from="1560446828498" duration="341000" />
+      <workItem from="1560446828498" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8111000" />
+    <option name="totallyTimeSpent" value="8388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="646" y="139" width="1294" height="727" extended-state="0" />
+    <frame x="56" y="0" width="1262" height="1087" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33802816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34670946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
