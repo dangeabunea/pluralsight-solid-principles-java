@@ -30,7 +30,10 @@ public class EmployeeFileRepository {
     public List<Employee> findAll() {
         List<Employee> employees = new ArrayList<>();
 
-        String path =  this.getClass().getClassLoader().getResource("employees.csv").getPath();
+        String path =  this.getClass().getClassLoader()
+                .getResource("employees.csv")
+                .getPath();
+
         try (Scanner scanner = new Scanner(new File(path))) {
             // SKip header
             scanner.nextLine();

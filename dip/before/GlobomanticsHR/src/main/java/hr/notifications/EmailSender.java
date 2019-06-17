@@ -12,7 +12,8 @@ import java.util.Properties;
 
 /*
 Email sender; To make it work you need to supply correct mail
-server data;
+server data; The current configuration properties will not be
+valid.
  */
 public class EmailSender {
     public static void notify(Employee employee){
@@ -27,7 +28,9 @@ public class EmailSender {
         Session session = Session.getInstance(prop, new Authenticator() {
             @Override
             protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("5d205e8b9503f6", "969159ed0125ea");
+                return new PasswordAuthentication(
+                        "5d205e8b9503f6",
+                        "969159ed0125ea");
             }
         });
 
@@ -54,6 +57,7 @@ public class EmailSender {
 
             // send and wait (mail server has limit)
             Transport.send(message);
+            System.out.println("Notified " + employee.getEmail());
             Thread.sleep(3000);
         }
         catch (MessagingException e){

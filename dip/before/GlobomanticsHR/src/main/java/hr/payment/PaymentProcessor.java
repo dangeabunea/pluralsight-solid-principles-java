@@ -12,8 +12,10 @@ public class PaymentProcessor {
     private EmployeeFileRepository employeeRepository;
 
     public PaymentProcessor(){
-        EmployeeFileSerializer fileSerializer = new EmployeeFileSerializer();
-        this.employeeRepository = new EmployeeFileRepository(fileSerializer);
+        EmployeeFileSerializer serializer =
+                new EmployeeFileSerializer();
+        this.employeeRepository =
+                new EmployeeFileRepository(serializer);
     }
 
     public int sendPayments(){
