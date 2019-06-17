@@ -12,7 +12,8 @@ import java.util.Properties;
 
 /*
 Email sender; To make it work you need to supply correct mail
-server data;
+server data; The current configuration properties will not be
+valid.
  */
 public class EmailSender {
     public static void notify(Employee employee){
