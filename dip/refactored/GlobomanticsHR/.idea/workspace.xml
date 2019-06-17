@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="009a154c-6523-4c76-b0ef-15cc2d16e165" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/notifications/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/notifications/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/payment/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/payment/PaymentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/persistence/EmployeeFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../before/GlobomanticsHR/src/main/java/hr/persistence/EmployeeFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/main/PayEmployeesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/main/PayEmployeesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/notifications/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/notifications/EmailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/payment/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/payment/PaymentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hr/payment/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hr/payment/PaymentProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../m3-sourcecode.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="009a154c-6523-4c76-b0ef-15cc2d16e165" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +12,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hr/payment/PaymentProcessorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hr/notifications/EmployeeNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -58,13 +37,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/hr/notifications/EmployeeNotifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/payment/PaymentProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeFileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/notifications/EmailSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/main/PayEmployeesMain.java" />
         <option value="$PROJECT_DIR$/src/test/java/hr/payment/PaymentProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/notifications/EmployeeNotifier.java" />
       </list>
     </option>
   </component>
@@ -190,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560770255196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560770261783" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -287,7 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560751775649</updated>
-      <workItem from="1560751777308" duration="7160000" />
+      <workItem from="1560751777308" duration="7539000" />
     </task>
     <servers />
   </component>
@@ -318,7 +297,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7160000" />
+    <option name="totallyTimeSpent" value="7539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="674" y="156" width="1294" height="727" extended-state="0" />
@@ -330,7 +309,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32394367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32394367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -429,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hr/notifications/EmployeeNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/persistence/EmployeeFileRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -481,6 +453,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/notifications/EmployeeNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
